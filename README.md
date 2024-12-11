@@ -703,3 +703,158 @@ ___
 
 </details>
 
+___
+<details>
+<summary><strong>Week 5: BSE and Options & Betting Markets</strong></summary>
+
+---
+
+### Lecture 1: Bristol Stock Exchange (BSE)
+
+#### Q1: What is the Bristol Stock Exchange (BSE)?  
+<details>
+  <summary>Show Answer</summary>
+  BSE is an open-source limit-order book exchange, designed as a teaching and research tool for algorithmic trading. It was developed at the University of Bristol and supports simulated market environments with robot traders.
+</details>
+
+#### Q2: Why was BSE developed?  
+<details>
+  <summary>Show Answer</summary>
+  - To provide students with practical experience in algorithmic trading.  
+  - To simulate market dynamics without financial risk.  
+  - To enable teaching and research in market-based systems.
+</details>
+
+#### Q3: What are Limit Order Books (LOBs)?  
+<details>
+  <summary>Show Answer</summary>
+  LOBs record buy (bid) and sell (ask) orders in a market, ranked by price and time. They are central to electronic trading systems.
+</details>
+
+#### Q4: How is the "microprice" in a LOB calculated?  
+<details>
+  <summary>Show Answer</summary>
+  Microprice =  
+  \[
+  \left(\frac{\text{Buy Volume}}{\text{Total Volume}}\right) \times \text{Best Bid Price} +  
+  \left(\frac{\text{Sell Volume}}{\text{Total Volume}}\right) \times \text{Best Ask Price}
+  \]
+</details>
+
+#### Q5: What are the benefits of using BSE for research?  
+<details>
+  <summary>Show Answer</summary>
+  - Enables large-scale simulations to analyze market behaviors.  
+  - Allows experimentation with various trading algorithms.  
+  - Facilitates understanding of real-world market dynamics in a controlled environment.
+</details>
+
+#### Q6: Name two novel "house traders" in BSE.  
+<details>
+  <summary>Show Answer</summary>
+  - **GVWY (Giveaway)**: Trades with zero strategy, accepts all trades.  
+  - **SHVR (Shaver)**: Adjusts prices slightly to gain small profits.
+</details>
+
+#### Q7: What challenges does BSE address compared to real-world exchanges?  
+<details>
+  <summary>Show Answer</summary>
+  - Avoids financial risk in live trading environments.  
+  - Overcomes limitations of access to real exchanges.  
+  - Provides scalable testing with controlled variables.
+</details>
+
+#### Q8: What metrics are used to evaluate trading strategies in BSE?  
+<details>
+  <summary>Show Answer</summary>
+  - Allocative efficiency.  
+  - Profitability of traders.  
+  - Price volatility and convergence to equilibrium.
+</details>
+
+---
+
+### Lecture 2: Options and Betting Markets
+
+#### Q9: What is short-selling?  
+<details>
+  <summary>Show Answer</summary>
+  Short-selling involves selling borrowed assets at the current price with the expectation of buying them back later at a lower price, profiting from the price difference.
+</details>
+
+#### Q10: What are derivatives?  
+<details>
+  <summary>Show Answer</summary>
+  Financial contracts whose value is derived from an underlying asset, such as stocks, commodities, or interest rates.
+</details>
+
+#### Q11: Distinguish between futures and options contracts.  
+<details>
+  <summary>Show Answer</summary>
+  - **Futures**: Obligatory to buy/sell the underlying asset at a set price on a specific date.  
+  - **Options**: Provide the right, but not the obligation, to buy/sell the underlying asset at a specified price before expiration.
+</details>
+
+#### Q12: What are "call" and "put" options?  
+<details>
+  <summary>Show Answer</summary>
+  - **Call**: Right to buy an asset at a specified price.  
+  - **Put**: Right to sell an asset at a specified price.
+</details>
+
+#### Q13: How are options priced?  
+<details>
+  <summary>Show Answer</summary>
+  Option price depends on:  
+  - Intrinsic value.  
+  - Time value (potential future value).  
+  - Volatility of the underlying asset.
+</details>
+
+#### Q14: What is a betting exchange?  
+<details>
+  <summary>Show Answer</summary>
+  A platform where participants can back or lay bets against one another, rather than betting against a bookmaker.
+</details>
+
+#### Q15: What are straddles and strangles in options strategies?  
+<details>
+  <summary>Show Answer</summary>
+  - **Straddle**: Buying a call and put at the same strike price, betting on high volatility.  
+  - **Strangle**: Buying a call and put at different strike prices, betting on directional moves.
+</details>
+
+#### Q16: What is Betfair?  
+<details>
+  <summary>Show Answer</summary>
+  Betfair is a major betting exchange, allowing users to trade bets like financial instruments, with better odds compared to traditional bookmakers.
+</details>
+
+#### Q17: What are American-style and European-style options?  
+<details>
+  <summary>Show Answer</summary>
+  - **American**: Can be exercised any time before expiration.  
+  - **European**: Can only be exercised at expiration.
+</details>
+
+#### Q18: What is the purpose of hedging in options trading?  
+<details>
+  <summary>Show Answer</summary>
+  Hedging reduces risk by taking offsetting positions in derivatives to protect against price movements.
+</details>
+
+#### Q19: How does leverage work in options?  
+<details>
+  <summary>Show Answer</summary>
+  Leverage allows traders to control larger positions with smaller investments, amplifying both potential gains and losses.
+</details>
+
+#### Q20: Why are betting exchanges considered controversial?  
+<details>
+  <summary>Show Answer</summary>
+  Critics argue that anonymous laying encourages corruption, as it’s easier to manipulate outcomes for profit compared to traditional betting.
+</details>
+
+---
+
+</details>
