@@ -539,3 +539,167 @@ ___
 ---
 
 </details>
+
+___
+<details>
+<summary><strong>Week 4: Economic Agents and Market-Based Systems</strong></summary>
+
+---
+
+### Lecture 1: Economic Agents I
+
+#### Q1: What is Market-Based Control (MBC)?  
+<details>
+  <summary>Show Answer</summary>
+  MBC uses market economics as a metaphor for dynamic resource allocation in systems. It involves software agents acting as traders and marketplaces for efficient and decentralized control.  
+</details>
+
+#### Q2: How are demand and supply curves represented in economics?  
+<details>
+  <summary>Show Answer</summary>
+  - **Demand Curve**: Downward-sloping, shows how price decreases as quantity demanded increases.  
+  - **Supply Curve**: Upward-sloping, shows how price increases as quantity supplied increases.  
+</details>
+
+#### Q3: What is the equilibrium price and quantity?  
+<details>
+  <summary>Show Answer</summary>
+  The equilibrium price (\( P_0 \)) and quantity (\( Q_0 \)) occur where the supply and demand curves intersect, ensuring that quantity demanded equals quantity supplied.  
+</details>
+
+#### Q4: What is Pareto Efficiency in market systems?  
+<details>
+  <summary>Show Answer</summary>
+  A market is Pareto efficient if no one can be made better off without making someone else worse off.  
+</details>
+
+#### Q5: What challenges do Continuous Double Auctions (CDAs) present?  
+<details>
+  <summary>Show Answer</summary>
+  - Traders must process noisy, asynchronous data in real-time.  
+  - Classical economic models break down, making CDAs harder to analyze.  
+</details>
+
+#### Q6: Why are free markets described as "self-correcting"?  
+<details>
+  <summary>Show Answer</summary>
+  Free markets adjust prices toward equilibrium through competition, where buyers and sellers react to surplus or shortage, stabilizing supply and demand.  
+</details>
+
+#### Q7: What happens in a sellers' market?  
+<details>
+  <summary>Show Answer</summary>
+  In a sellers' market, demand exceeds supply, causing prices to rise.  
+</details>
+
+#### Q8: What happens in a buyers' market?  
+<details>
+  <summary>Show Answer</summary>
+  In a buyers' market, supply exceeds demand, causing prices to fall.  
+</details>
+
+#### Q9: How do auctions fit into market-based systems?  
+<details>
+  <summary>Show Answer</summary>
+  Auctions serve as mechanisms for buyers and sellers to meet and trade, efficiently determining market prices based on bids and offers.  
+</details>
+
+---
+
+### Lecture 2: Economic Agents II
+
+#### Q10: What are Zero-Intelligence (ZI) traders?  
+<details>
+  <summary>Show Answer</summary>
+  - **ZI-U**: Unconstrained traders generating random bid/offer prices.  
+  - **ZI-C**: Constrained traders, random but restricted to avoid trading at a loss.  
+</details>
+
+#### Q11: What was demonstrated by Gode & Sunder (1993) regarding ZI-C traders?  
+<details>
+  <summary>Show Answer</summary>
+  ZI-C traders achieved near-human allocative efficiency in CDAs, suggesting that much of the efficiency is due to market structure rather than trader intelligence.  
+</details>
+
+#### Q12: What is the ZIP trading algorithm?  
+<details>
+  <summary>Show Answer</summary>
+  - Traders adjust their profit margins using a learning rule based on market feedback.  
+  - ZIP adapts dynamically, raising or lowering margins in response to observed trade prices.  
+</details>
+
+#### Q13: What are the key differences between ZI-C and ZIP traders?  
+<details>
+  <summary>Show Answer</summary>
+  - **ZI-C**: Random but constrained, not optimized for profit.  
+  - **ZIP**: Adaptive and uses a learning rule to optimize profit margins based on market activity.  
+</details>
+
+#### Q14: How does the Gjerstad-Dickhaut (GD) algorithm improve on ZI-C?  
+<details>
+  <summary>Show Answer</summary>
+  - GD uses belief functions based on historical trade data to estimate the probability of trade acceptance at various prices.  
+  - This allows traders to make more informed bids and offers.  
+</details>
+
+#### Q15: What is the Adaptive Aggressive (AA) trading algorithm?  
+<details>
+  <summary>Show Answer</summary>
+  - AA estimates equilibrium prices using a weighted moving average of trade history.  
+  - Aggressiveness levels adjust based on market volatility and trading conditions.  
+</details>
+
+#### Q16: How do traders in ZIP adjust their profit margins?  
+<details>
+  <summary>Show Answer</summary>
+  ZIP traders raise or lower their profit margins based on recent trade prices, using a learning rule like Widrow-Hoff with momentum.  
+</details>
+
+#### Q17: What are the main performance metrics for market efficiency?  
+<details>
+  <summary>Show Answer</summary>
+  - **Allocative Efficiency**: Total utility earned by traders relative to the theoretical maximum.  
+  - **Single Agent Efficiency**: Profit of an agent relative to expected profit at equilibrium.  
+  - **Smith’s Alpha**: Deviation of transaction prices from equilibrium.  
+</details>
+
+#### Q18: What is the Kaplan "Sniper" trading algorithm?  
+<details>
+  <summary>Show Answer</summary>
+  The Kaplan "Sniper" waits until conditions are optimal (e.g., bid-offer spread narrows) before making a trade, aiming for maximum profit with minimal activity.  
+</details>
+
+#### Q19: Why is ZI-C considered insufficient in some markets?  
+<details>
+  <summary>Show Answer</summary>
+  ZI-C fails in asymmetric markets or when price distributions deviate from equilibrium predictions, as it cannot adapt to market conditions.  
+</details>
+
+#### Q20: How do simulation experiments help compare trading algorithms?  
+<details>
+  <summary>Show Answer</summary>
+  Simulations test trader performance under controlled conditions, evaluating metrics like efficiency, volatility, and responsiveness to dynamic market changes.  
+</details>
+
+---
+
+### Combined Insights from Lectures 1 & 2
+
+#### Q21: What factors influence the success of different trading algorithms?  
+<details>
+  <summary>Show Answer</summary>
+  - Market composition (e.g., homogeneous vs. mixed populations).  
+  - Dynamic changes in supply and demand.  
+  - Algorithm adaptability and learning capabilities.  
+</details>
+
+#### Q22: What role does adaptability play in trading algorithms?  
+<details>
+  <summary>Show Answer</summary>
+  Adaptive algorithms like ZIP and AA adjust to real-time market conditions, outperforming static algorithms in dynamic environments.  
+</details>
+
+---
+
+</details>
+
