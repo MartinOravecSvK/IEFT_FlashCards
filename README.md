@@ -369,3 +369,173 @@ ___
 ---
 
 </details>
+
+___
+<details>
+<summary><strong>Week 3: Financial Technology Introduction and Empirical Methods</strong></summary>
+
+---
+
+### Lecture 1: Introduction to Financial Technology
+
+#### Q1: What are the three dimensions of financial technology?  
+<details>
+  <summary>Show Answer</summary>
+  1. **Business Functions**: Advice, insurance, payments, investments, financing, money management.  
+  2. **Technologies & Concepts**: Blockchain, data analytics, NFC, peer-to-peer systems.  
+  3. **Institutions**: Traditional finance, tech startups, big tech corporations.  
+</details>
+
+#### Q2: How does digitalisation differ from FinTech and TechFin?  
+<details>
+  <summary>Show Answer</summary>
+  - **Digitalisation**: Using technology to improve traditional financial processes (incremental innovation).  
+  - **FinTech**: Redesigning financial services from the ground up using new technology (disruptive innovation).  
+  - **TechFin**: Leveraging existing technology dominance to enter financial services (lock-in through network effects).  
+</details>
+
+#### Q3: What are some historical milestones in the evolution of financial technology?  
+<details>
+  <summary>Show Answer</summary>
+  - 2500 BCE: Roman abacus for calculations.  
+  - 11th Century: Song Dynasty introduces paper money.  
+  - 1949: Diners Club introduces first charge card.  
+  - 1973: SWIFT for international payments.  
+  - 1995: Wells Fargo launches first online banking platform.  
+</details>
+
+#### Q4: What factors have driven the democratisation of financial services?  
+<details>
+  <summary>Show Answer</summary>
+  - Loss of trust in traditional banks post-2008 financial crisis.  
+  - Emergence of new players offering alternatives.  
+  - Regulatory scrutiny and political/economic changes.  
+</details>
+
+#### Q5: How has the global financial ecosystem evolved since the 1960s?  
+<details>
+  <summary>Show Answer</summary>
+  - Traditional financial institutions adopted digital processes (e.g., SWIFT, electronic trading).  
+  - Emergence of online-only banks (e.g., ING Direct).  
+  - Introduction of mobile payments and peer-to-peer platforms.  
+</details>
+
+#### Q6: How do FinTech, TechFin, and Digitalisation complement or compete with each other?  
+<details>
+  <summary>Show Answer</summary>
+  - FinTech startups disrupt traditional processes with new technology.  
+  - TechFin giants use their dominance to integrate financial services.  
+  - Digitalisation by traditional finance seeks to maintain relevance and efficiency.  
+</details>
+
+#### Q7: What is the impact of network effects on financial technology?  
+<details>
+  <summary>Show Answer</summary>
+  - Positive network externalities increase utility as more users join (e.g., payment systems like PayPal).  
+  - Critical for achieving scale and lock-in, especially for TechFin platforms.  
+</details>
+
+#### Q8: What role did innovation in payments play in the growth of digital finance?  
+<details>
+  <summary>Show Answer</summary>
+  - Introduction of bank cards (e.g., BankAmericard, now Visa) and later magnetic strips for speed.  
+  - SWIFT and Nasdaq for global payments and trading.  
+  - Mobile apps and peer-to-peer payments enabling financial inclusion.  
+</details>
+
+---
+
+### Lecture 2: Empirical Methods in Financial Technology
+
+#### Q1: What are the three common measures of central tendency?  
+<details>
+  <summary>Show Answer</summary>
+  1. **Mean**: Average of all data points, sensitive to outliers.  
+  2. **Median**: Middle value when data is sorted, less affected by outliers.  
+  3. **Mode**: Most frequently occurring value, useful for categorical data.  
+</details>
+
+#### Q2: What is the Interquartile Range (IQR) and how is it calculated?  
+<details>
+  <summary>Show Answer</summary>
+  The IQR measures the spread of the middle 50% of the data:  
+  \( \text{IQR} = Q3 - Q1 \), where \( Q1 \) is the 25th percentile and \( Q3 \) is the 75th percentile.  
+</details>
+
+#### Q3: How are confidence intervals (CIs) used in empirical methods?  
+<details>
+  <summary>Show Answer</summary>
+  Confidence intervals provide a range of values likely to contain the population mean, with a given confidence level (e.g., 95%). They are calculated using sample data and provide insights into the precision of estimates.  
+</details>
+
+#### Q4: What are the assumptions of parametric tests like the t-test?  
+<details>
+  <summary>Show Answer</summary>
+  - Data are normally distributed.  
+  - Observations are independent.  
+  - Variance is equal across groups.  
+  - The scale of measurement is interval or ratio.  
+</details>
+
+#### Q5: How do non-parametric tests differ from parametric tests?  
+<details>
+  <summary>Show Answer</summary>
+  Non-parametric tests do not assume normality or equal variance. They often focus on ranks or medians and are more robust to deviations from parametric assumptions.  
+</details>
+
+#### Q6: What is the Wilcoxon-Mann-Whitney U Test, and when is it used?  
+<details>
+  <summary>Show Answer</summary>
+  It is a non-parametric test comparing two independent samples. It tests whether their distributions differ, focusing on ranks instead of means.  
+</details>
+
+#### Q7: What are adjacent values in box plots?  
+<details>
+  <summary>Show Answer</summary>
+  Adjacent values define the tails of the distribution:  
+  - **Upper Adjacent Value**: Largest value within \( Q3 + 2 \times IQR \).  
+  - **Lower Adjacent Value**: Smallest value within \( Q1 - 2 \times IQR \).  
+</details>
+
+#### Q8: Why might Victorian-era frequentist statistics be considered outdated?  
+<details>
+  <summary>Show Answer</summary>
+  Frequentist methods rely heavily on assumptions (e.g., normality, independence) that are often violated. Modern computational tools enable more robust, assumption-free techniques, like non-parametric methods or Bayesian statistics.  
+</details>
+
+#### Q9: What role does data visualization play in empirical analysis?  
+<details>
+  <summary>Show Answer</summary>
+  Data visualization aids in understanding complex data sets by highlighting trends, outliers, and distributions. Tools like box plots and time-series animations (e.g., Hans Rosling’s Gapminder) make statistical findings accessible and compelling.  
+</details>
+
+#### Q10: How can sample size affect statistical tests?  
+<details>
+  <summary>Show Answer</summary>
+  - Larger sample sizes improve the precision of estimates and reduce the margin of error in confidence intervals.  
+  - Small sample sizes may violate assumptions and lead to unreliable test results.  
+</details>
+
+---
+
+### Combined Insights from Lectures 1 & 2
+
+#### Q11: What challenges do FinTech innovations face in empirical evaluation?  
+<details>
+  <summary>Show Answer</summary>
+  - Data privacy concerns can limit access to comprehensive datasets.  
+  - Market heterogeneity complicates cross-regional comparisons.  
+  - Regulatory differences affect the scalability and generalizability of findings.  
+</details>
+
+#### Q12: How can empirical methods support FinTech innovation?  
+<details>
+  <summary>Show Answer</summary>
+  - Identifying user needs through data-driven insights.  
+  - Validating product effectiveness with controlled experiments.  
+  - Monitoring long-term impacts (e.g., financial inclusion, user retention).  
+</details>
+
+---
+
+</details>
