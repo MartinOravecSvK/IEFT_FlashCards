@@ -201,5 +201,171 @@ Click on the arrows to reveal the answers.
 
 ---
 
+</details>
 
-</detailes>
+___
+<details>
+<summary><strong>Week 2: Microeconomic Principles and Auctions</strong></summary>
+
+---
+
+### Lecture 1: Microeconomic Principles
+
+#### Q1: What does microeconomics study?  
+<details>
+  <summary>Show Answer</summary>
+  Microeconomics studies the behavior of individuals and businesses and how decisions are made based on the allocation of limited resources.
+</details>
+
+#### Q2: What is the law of supply and demand?  
+<details>
+  <summary>Show Answer</summary>
+  The law of supply and demand states that in a competitive market, the price of a product adjusts until the quantity demanded equals the quantity supplied, reaching equilibrium.
+</details>
+
+#### Q3: What happens when there is excess demand in a market?  
+<details>
+  <summary>Show Answer</summary>
+  When demand exceeds supply, prices rise, moving the market toward equilibrium.
+</details>
+
+#### Q4: What is consumer surplus?  
+<details>
+  <summary>Show Answer</summary>
+  Consumer surplus is the value consumers receive from a product in excess of the price they pay for it, represented by the area under the demand curve and above the market price.
+</details>
+
+#### Q5: What is producer surplus?  
+<details>
+  <summary>Show Answer</summary>
+  Producer surplus is the price producers receive for a good minus their minimum acceptable price, summed over the quantity sold. It is the area above the supply curve and below the market price.
+</details>
+
+#### Q6: What are fixed and variable costs?  
+<details>
+  <summary>Show Answer</summary>
+  - Fixed costs: Costs that do not vary with production levels (e.g., rent).  
+  - Variable costs: Costs that change with production levels (e.g., raw materials).  
+</details>
+
+#### Q7: What is marginal cost?  
+<details>
+  <summary>Show Answer</summary>
+  Marginal cost is the cost of producing one additional unit of a good. It is calculated as the change in total cost divided by the change in quantity produced.
+</details>
+
+#### Q8: What is diminishing marginal utility?  
+<details>
+  <summary>Show Answer</summary>
+  Diminishing marginal utility occurs when each additional unit of a good consumed provides less benefit than the previous one.
+</details>
+
+#### Q9: How does price elasticity of demand differ for elastic and inelastic goods?  
+<details>
+  <summary>Show Answer</summary>
+  - Elastic goods: Small price changes result in large changes in quantity demanded.  
+  - Inelastic goods: Large price changes result in small changes in quantity demanded.  
+</details>
+
+#### Q10: What is the equilibrium point in a competitive market?  
+<details>
+  <summary>Show Answer</summary>
+  The equilibrium point is where the quantity demanded equals the quantity supplied, maximizing total consumer and producer surplus.
+</details>
+
+#### Q11: How does a monopoly differ from a competitive market?  
+<details>
+  <summary>Show Answer</summary>
+  In a monopoly, one firm dominates the market and sets prices, while in a competitive market, firms are price takers and must sell at market price.
+</details>
+
+#### Q12: What causes shifts in supply or demand?  
+<details>
+  <summary>Show Answer</summary>
+  Shifts in supply or demand occur when external factors change, such as production costs, consumer preferences, or geopolitical events, altering the price-quantity relationship.
+</details>
+
+---
+
+### Lecture 2: Auction Principles
+
+#### Q1: What are the four common auction types?  
+<details>
+  <summary>Show Answer</summary>
+  1. English Auction: Open ascending-price auction.  
+  2. Dutch Auction: Open descending-price auction.  
+  3. First-Price Sealed Bid: Highest bidder wins and pays their bid.  
+  4. Second-Price Sealed Bid (Vickrey Auction): Highest bidder wins but pays the second-highest bid.  
+</details>
+
+#### Q2: What is the difference between private and interdependent values in auctions?  
+<details>
+  <summary>Show Answer</summary>
+  - **Private Values**: Each bidder knows their valuation independently of others (e.g., personal use items).  
+  - **Interdependent Values**: Bidders’ valuations are influenced by information others might have (e.g., assets for resale).  
+</details>
+
+#### Q3: What is strategic equivalence in auctions?  
+<details>
+  <summary>Show Answer</summary>
+  Strategic equivalence occurs when every strategy in one auction has a corresponding strategy in another, leading to identical outcomes (e.g., Dutch and First-Price Sealed Bid).  
+</details>
+
+#### Q4: Why are English and Vickrey auctions incentive compatible?  
+<details>
+  <summary>Show Answer</summary>
+  Both auctions encourage bidders to bid their true value because it is the optimal strategy for maximizing their surplus.  
+</details>
+
+#### Q5: What is the Revenue Equivalence Theorem?  
+<details>
+  <summary>Show Answer</summary>
+  The theorem states that under certain conditions (private values, risk neutrality, independent identically distributed values), all standard auction formats yield the same expected revenue to the seller.  
+</details>
+
+#### Q6: Why might revenue differ in practice despite the Revenue Equivalence Theorem?  
+<details>
+  <summary>Show Answer</summary>
+  - Bidders may be risk-averse, leading to higher bids in First-Price Sealed Bid auctions.  
+  - Values may be interdependent, making open auctions more profitable due to shared information.  
+</details>
+
+#### Q7: What is the main drawback of open auctions compared to sealed bids?  
+<details>
+  <summary>Show Answer</summary>
+  Open auctions are more susceptible to collusion since bidders can observe each other’s strategies and signal.  
+</details>
+
+#### Q8: How do time limits affect eBay-style auctions?  
+<details>
+  <summary>Show Answer</summary>
+  Time limits encourage "sniping," where bidders place last-minute bids to avoid being outbid, potentially reducing optimal bidding behavior.  
+</details>
+
+#### Q9: What solution did eBay introduce to address last-minute sniping?  
+<details>
+  <summary>Show Answer</summary>
+  eBay introduced "proxy bidding," allowing users to enter their maximum bid upfront, with the system incrementally bidding on their behalf.  
+</details>
+
+#### Q10: How do Google Ads auctions differ from traditional auctions?  
+<details>
+  <summary>Show Answer</summary>
+  Google Ads auctions use a second-price approach, but incorporate "quality scores" for ads, affecting the final bid price and ranking.  
+</details>
+
+#### Q11: What is a reverse auction?  
+<details>
+  <summary>Show Answer</summary>
+  A reverse auction has suppliers competing to offer the lowest price for a contract, with the lowest bidder winning.  
+</details>
+
+#### Q12: What is a Continuous Double Auction (CDA)?  
+<details>
+  <summary>Show Answer</summary>
+  A CDA allows buyers and sellers to post bids and offers continuously, facilitating dynamic price discovery. This mechanism underpins financial markets.  
+</details>
+
+---
+
+</details>
