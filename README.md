@@ -858,3 +858,295 @@ ___
 ---
 
 </details>
+
+___
+<details>
+<summary><strong>Week 7: Sentiment Analysis and Crowd Economy</strong></summary>
+
+---
+
+### Lecture 1: Sentiment Analysis (Theory and Practice)
+
+#### Q1: What is sentiment analysis?  
+<details>
+  <summary>Show Answer</summary>
+  Sentiment analysis, also known as opinion mining, is the computational process of identifying and categorizing opinions expressed in text to determine their sentiment (positive, negative, or neutral).  
+</details>
+
+#### Q2: Why does sentiment matter in the internet age?  
+<details>
+  <summary>Show Answer</summary>
+  - Public sentiment influences economic behavior (e.g., consumer spending, stock prices).  
+  - Sentiment analysis provides rapid feedback for business and policy decision-making.  
+</details>
+
+#### Q3: What are the three levels of sentiment analysis?  
+<details>
+  <summary>Show Answer</summary>
+  1. **Document-level**: Overall sentiment of an entire document.  
+  2. **Sentence-level**: Sentiment of individual sentences or phrases.  
+  3. **Aspect-level**: Sentiment related to specific features or aspects of a product or topic.  
+</details>
+
+#### Q4: What challenges are faced in sentiment analysis?  
+<details>
+  <summary>Show Answer</summary>
+  - Subtle expressions of sentiment (e.g., sarcasm, negation).  
+  - Lack of context in "bag of words" models.  
+  - Complex sentiments within documents (e.g., mixed opinions).  
+</details>
+
+#### Q5: How can sentiment analysis be applied in financial technology?  
+<details>
+  <summary>Show Answer</summary>
+  - Predicting stock market trends from public mood.  
+  - Spotting opinions that might impact a company’s value.  
+  - Tracking customer concerns and brand sentiment.  
+</details>
+
+#### Q6: What are "brushing" and "sockpuppetry" in the context of gaming sentiment analysis?  
+<details>
+  <summary>Show Answer</summary>
+  - **Brushing**: Sellers posting fake positive reviews to boost product ratings.  
+  - **Sockpuppetry**: Creating fake accounts to manipulate opinions or create false consensus.  
+</details>
+
+#### Q7: What is astroturfing?  
+<details>
+  <summary>Show Answer</summary>
+  Astroturfing is the use of fake grassroots campaigns to make a message appear as though it originates from genuine public support.  
+</details>
+
+#### Q8: How can opinion spam be detected?  
+<details>
+  <summary>Show Answer</summary>
+  - Using supervised learning with features like n-grams, reviewer behaviors, and product characteristics.  
+  - Employing network analysis to identify clusters of sockpuppets.  
+</details>
+
+#### Q9: What are supervised and unsupervised learning methods in sentiment analysis?  
+<details>
+  <summary>Show Answer</summary>
+  - **Supervised learning**: Requires labeled data to train models (e.g., positive/negative reviews).  
+  - **Unsupervised learning**: Uses clustering and semantic orientation to classify sentiment without labeled data.  
+</details>
+
+#### Q10: How does gaming sentiment systems impact economics?  
+<details>
+  <summary>Show Answer</summary>
+  - Fake reviews can mislead consumers, reducing trust in platforms.  
+  - Manipulated sentiment affects financial markets and consumer spending.  
+</details>
+
+---
+
+### Lecture 2: Crowd Economy
+
+#### Q11: What is the crowd economy?  
+<details>
+  <summary>Show Answer</summary>
+  A collaborative model built around shared resources, where people and organizations collectively create, distribute, and consume goods and services.  
+</details>
+
+#### Q12: What are the two key roles of the crowd in the economy?  
+<details>
+  <summary>Show Answer</summary>
+  1. **Crowdsourcing**: Solving problems or performing tasks collaboratively.  
+  2. **Crowdfunding**: Raising money directly from the public.  
+</details>
+
+#### Q13: What are the types of crowdfunding?  
+<details>
+  <summary>Show Answer</summary>
+  1. **Donation-based**: Funders donate without expecting returns.  
+  2. **Reward-based**: Funders receive a product or service.  
+  3. **Equity-based**: Funders receive shares in the company.  
+  4. **Debt-based (P2P lending)**: Funders earn interest on loans.  
+</details>
+
+#### Q14: What is the purpose of peer-to-peer (P2P) lending?  
+<details>
+  <summary>Show Answer</summary>
+  P2P lending connects borrowers and lenders directly, reducing costs by removing financial intermediaries like banks.  
+</details>
+
+#### Q15: How is gamification used in crowdsourcing?  
+<details>
+  <summary>Show Answer</summary>
+  By making tasks enjoyable, crowdsourcing platforms like Cancer Research UK motivate volunteers to contribute through games and interactive activities.  
+</details>
+
+#### Q16: What risks are associated with P2P lending?  
+<details>
+  <summary>Show Answer</summary>
+  - Borrower defaults.  
+  - Lack of financial protections (e.g., no deposit guarantees in the UK).  
+</details>
+
+#### Q17: What is the role of platforms like Kickstarter in the crowd economy?  
+<details>
+  <summary>Show Answer</summary>
+  Kickstarter enables creators to raise funds for projects through reward-based crowdfunding, where backers receive early access to products or special perks.  
+</details>
+
+#### Q18: What factors influence the success of crowdfunding campaigns?  
+<details>
+  <summary>Show Answer</summary>
+  - Clear communication of goals.  
+  - Attractive rewards or incentives.  
+  - Building trust and credibility.  
+</details>
+
+#### Q19: What are examples of successful equity crowdfunding campaigns?  
+<details>
+  <summary>Show Answer</summary>
+  - **BrewDog**: Raised £74 million for its brewery.  
+  - **Revolut**: Raised significant funds, becoming a UK unicorn.  
+</details>
+
+#### Q20: How do crowd platforms like Zooniverse benefit research?  
+<details>
+  <summary>Show Answer</summary>
+  Platforms like Zooniverse leverage the crowd for tasks like identifying planets or classifying data, combining mass collaboration with scientific discovery.  
+</details>
+
+---
+
+### Lecture 3: Blockchain and Cryptocurrencies
+
+#### Q1: What is a blockchain?  
+<details>
+  <summary>Show Answer</summary>
+  A blockchain is a decentralized, append-only digital ledger where transactions are grouped into blocks, cryptographically linked, and verified through consensus protocols like Proof-of-Work (PoW) or Proof-of-Stake (PoS).  
+</details>
+
+#### Q2: What are the key properties of blockchain?  
+<details>
+  <summary>Show Answer</summary>
+  - Decentralization.  
+  - Transparency.  
+  - Immutability.  
+  - Security through cryptography.  
+  - Consensus-driven validation.  
+</details>
+
+#### Q3: How does Bitcoin address the "double spend" problem?  
+<details>
+  <summary>Show Answer</summary>
+  By maintaining a single agreed history of transactions in the blockchain, Bitcoin ensures that each coin can only be spent once. Any attempt at double spending creates conflicting blocks, which are resolved by the network choosing the longest chain.  
+</details>
+
+#### Q4: What is Proof-of-Work (PoW)?  
+<details>
+  <summary>Show Answer</summary>
+  PoW is a consensus mechanism requiring miners to solve complex cryptographic puzzles to validate transactions and add new blocks. This process prevents tampering and ensures network security.  
+</details>
+
+#### Q5: What is a Merkle Tree, and why is it used in blockchain?  
+<details>
+  <summary>Show Answer</summary>
+  A Merkle Tree is a data structure that summarizes and verifies large amounts of data efficiently. In blockchain, it ensures the integrity of transactions within a block by linking them through cryptographic hashes.  
+</details>
+
+#### Q6: What is a 51% attack?  
+<details>
+  <summary>Show Answer</summary>
+  A 51% attack occurs when a group of miners controls more than 50% of a blockchain’s computational power, allowing them to reverse transactions, double spend, and potentially disrupt the network.  
+</details>
+
+#### Q7: What are the limitations of Bitcoin?  
+<details>
+  <summary>Show Answer</summary>
+  - High energy consumption due to PoW.  
+  - Slow transaction processing.  
+  - Scalability issues.  
+  - Pseudo-anonymity that may not guarantee full privacy.  
+</details>
+
+#### Q8: What are smart contracts, and which blockchain introduced them?  
+<details>
+  <summary>Show Answer</summary>
+  Smart contracts are self-executing contracts with the terms directly written into code. They were introduced by Ethereum, enabling decentralized applications (dApps).  
+</details>
+
+#### Q9: What is Proof-of-Stake (PoS), and how does it differ from PoW?  
+<details>
+  <summary>Show Answer</summary>
+  PoS replaces energy-intensive mining with a system where validators are chosen based on the number of coins they stake. This approach reduces energy consumption and enhances scalability.  
+</details>
+
+#### Q10: What was the role of HashCash in blockchain’s development?  
+<details>
+  <summary>Show Answer</summary>
+  HashCash was a precursor to Bitcoin’s PoW, originally designed to limit email spam by requiring senders to solve computational puzzles. Bitcoin adapted this idea for mining and currency regulation.  
+</details>
+
+#### Q11: What is the "Wild West" problem in cryptocurrencies?  
+<details>
+  <summary>Show Answer</summary>
+  The lack of regulation in cryptocurrency ecosystems has led to scams, hacks (e.g., MtGox), and fragile legislation. This learning process mirrors the chaotic, unregulated development of earlier industries.  
+</details>
+
+#### Q12: What are the generations of blockchain evolution?  
+<details>
+  <summary>Show Answer</summary>
+  1. **1G (Bitcoin)**: Decentralized digital cash.  
+  2. **2G (Ethereum)**: Introduction of smart contracts and dApps.  
+  3. **3G (Cardano)**: Addressing scalability and energy efficiency through PoS.  
+</details>
+
+#### Q13: How does the R3 Consortium plan to use blockchain?  
+<details>
+  <summary>Show Answer</summary>
+  The R3 Consortium explores private blockchains for interbank transactions, focusing on maintaining consensus without relying on centralized entities, unlike Bitcoin or Ethereum.  
+</details>
+
+#### Q14: What are the challenges of using blockchain in traditional systems?  
+<details>
+  <summary>Show Answer</summary>
+  - High energy costs.  
+  - Difficulty integrating with existing infrastructure.  
+  - Lack of understanding and skilled personnel.  
+  - Regulatory uncertainty.  
+</details>
+
+#### Q15: What is the significance of Satoshi Nakamoto's Bitcoin whitepaper?  
+<details>
+  <summary>Show Answer</summary>
+  The whitepaper introduced the concept of a decentralized, trustless payment system, solving the double spend problem and establishing the foundation for modern blockchain technology.  
+</details>
+
+#### Q16: How does a blockchain handle forks?  
+<details>
+  <summary>Show Answer</summary>
+  When conflicting blocks are created, the network eventually resolves the fork by choosing the longest valid chain, relegating other chains as "orphan" blocks.  
+</details>
+
+#### Q17: What are dApps, and what challenges do they face?  
+<details>
+  <summary>Show Answer</summary>
+  dApps (decentralized applications) are built on blockchain platforms like Ethereum. Challenges include scalability, usability, and energy consumption of underlying networks.  
+</details>
+
+#### Q18: How do privacy coins like Monero differ from Bitcoin?  
+<details>
+  <summary>Show Answer</summary>
+  Privacy coins use advanced cryptographic techniques like ring signatures and stealth addresses to obfuscate transaction details, ensuring complete anonymity compared to Bitcoin’s pseudo-anonymity.  
+</details>
+
+#### Q19: What is the significance of decentralized finance (DeFi)?  
+<details>
+  <summary>Show Answer</summary>
+  DeFi leverages blockchain to offer financial services (e.g., lending, trading) without intermediaries, promoting accessibility, transparency, and innovation in traditional finance.  
+</details>
+
+#### Q20: Why are blockchains considered append-only logs?  
+<details>
+  <summary>Show Answer</summary>
+  Blockchains allow only new data to be added, preventing modification of previous entries. This immutability is crucial for maintaining trust and integrity in decentralized systems.  
+</details>
+
+---
+
+</details>
+
